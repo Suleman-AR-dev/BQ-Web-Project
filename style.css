@@ -1,5 +1,6 @@
 
 Body{
+    
     font-size: 100%;
     font-family: 'Courier New', Courier, monospace;
     letter-spacing: 0.15em;
@@ -12,7 +13,7 @@ Body{
     min-height: 720px;
     margin: 10px auto 10px auto;
     padding: 20px;
-    border: 4px double #ffffff;
+    border: 4px double #000000;
     background-color: #ffffff;
     border-radius: 5px;
     background-image: url(https://img1.goodfon.com/original/1280x720/6/ba/black-dark-vintage-pattern-3872.jpg);
@@ -21,8 +22,30 @@ Body{
     margin: 5px 0px 0px auto ;
 
 }
+@media screen and (min-width:200px) and (max-width:480px) {
+    .ul1{
+        min-width: 200px;
+        min-height: 166px;
+        max-width:0px;
+        max-height: 0px;
+        margin: 0px 0px 90px 190px;
+    }
+    a{
+        margin: -10px 30px 0px 30px;
+        padding: 0px;
+        display: block;
+        text-align: center;
+    
+    }
+
+    
+
+
+}
+
+    
 ul{
-    width: 570px;
+    max-width: 570px;
     padding: 35px;
     margin: -111px 35px 0px 630px ;
     border-top: 0px solid #000000;
@@ -34,17 +57,18 @@ ul{
     background-color: #669a99;
     background: -webkit-gradient(linear, left top,
     left bottom, from(#02c0ff), to(#014b64));
-
+    
+    
 }
 li{
     display: inline;
     margin: 0px 10px;
 }
 a{
-    color: #f50101;
+    color: #ffffff;
     text-transform: uppercase;
     text-decoration: solid;
-    padding: 6px 18px 5px 18px;
+    padding: 6px 18px 5px 18px
 }
 a{
     border-radius: 5px;
@@ -80,8 +104,8 @@ h1{
     min-height: 720px;
     margin: 10px auto 10px auto;
     padding: 20px;
-    border: 4px double #000000;
-    background-color: #ffffff;
+    border: 4px double #e6e6e6;
+    background-color: #000000;
     border-radius: 5px;
 }
 .product{
